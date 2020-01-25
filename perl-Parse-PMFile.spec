@@ -4,7 +4,6 @@
 
 %define		pdir	Parse
 %define		pnam	PMFile
-%include	/usr/lib/rpm/macros.perl
 Summary:	Parses .pm file as PAUSE does
 Name:		perl-Parse-PMFile
 Version:	0.36

@@ -7,7 +7,7 @@
 Summary:	Parses .pm file as PAUSE does
 Name:		perl-Parse-PMFile
 Version:	0.36
-Release:	1
+Release:	2
 License:	GPL+ or Artistic
 Group:		Development/Libraries
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

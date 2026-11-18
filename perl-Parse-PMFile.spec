@@ -6,19 +6,19 @@
 %define		pnam	PMFile
 Summary:	Parses .pm file as PAUSE does
 Name:		perl-Parse-PMFile
-Version:	0.36
-Release:	2
+Version:	0.48
+Release:	1
 License:	GPL+ or Artistic
 Group:		Development/Libraries
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	102f1901c15e1b1458b74eb4278558e8
+Source0:	https://www.cpan.org/modules/by-authors/id/I/IS/ISHIGAKI/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	b63675e69223245382e70a39cacc08e0
 URL:		http://search.cpan.org/dist/Parse-PMFile/
 BuildRequires:	perl(JSON::PP) >= 2.00
 BuildRequires:	perl(version) >= 0.83
 BuildRequires:	perl-ExtUtils-MakeMaker-CPANfile
 %if %{with tests}
 BuildRequires:	perl(File::Temp) >= 0.19
-BuildRequires:	perl(Test::More) >= 0.88
+BuildRequires:	perl(Test::More) >= 0.94
 BuildRequires:	perl-version
 %endif
 Requires:	perl(JSON::PP) >= 2.00
